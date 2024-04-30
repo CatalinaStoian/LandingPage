@@ -1,0 +1,150 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+:root {
+    --primary: #02897a;
+    --white: #fff;
+    --blue-font: #173a56;
+    --secondary-border: #bcd0e5;
+    --font-color: #22343d;
+    --font-32: 32px;
+    --lineH-48: 48px;
+    --fontW-bold: 700;
+    --lineH-26: 26px;
+  }
+  .logo-container a{
+    color: var(--font-color);
+    font-weight: 700;
+    font-size: 1.75rem;
+  }
+  .button-bg-color {
+    background-color: var(--primary);
+    color: var(--white);
+  }
+  .button-color{
+    color: var(--primary);
+    border-color: var(--white);
+  }
+  .nav-link{
+    color: var(--font-color);
+  }
+ .navbar-toggler:focus{
+    box-shadow: none;
+ }
+
+ .watch-btn{
+    border: none;
+    color: var(--primary);
+    text-decoration: underline;
+ }
+ .play-icon{
+ width: 18px;
+ }
+  .card{
+  border: none;
+ }
+.strategies-container{
+  margin-top: 50px;
+}
+.fifth-section{
+  background-image: url(./assets/images/gradient-Bg2.svg);
+  background-position: center;
+  background-repeat: no-repeat; 
+  background-size:contain;
+}
+
+.fifth-section .chat-icon{
+  width: 100%;
+}
+
+
+ .chat-person-one{
+  top: 12px;
+  right: 19px;
+ }
+ .chat-person-two{
+  top: 12px;
+  right: 26px;
+ }
+
+ .chat-person-three{
+  top: 16px;
+  right: 31px;
+ }
+ .chat-person-four{
+  top: 16px;
+  right: 8px;
+ }
+
+ .card-section{
+  border-radius: 8px;
+    background: #fff;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.25);
+ }
+ .middle-card{
+  background-color: var(--primary);
+  color: var(--white);
+ }
+ .middle-card-button{
+  background-color: var(--white);
+  color: var(--primary);
+ }
+
+ .tenth-section{
+  background-color: var(--primary);
+    border-radius: 32px;
+    margin-top: 50px;
+ }
+
+ .tenth-section img{
+  width: 100%;
+ }
+ .tenth-button{
+  background: #fff;
+    color: #02897a;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: normal;
+    border: none;
+ }
+
+ .tenth-p{
+  color: #fff;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+ }
+
+ .last-section a{
+  text-decoration: none;
+  color: var(--font-color);
+ }
+ .last-section input{
+  border-radius: 4px;
+    border: 1px solid #bcd0e5;
+    background: #fff;
+ }
+
+ .last-section button{
+  font-weight: 700;
+ }
+.clients-container{
+  margin-top: 50px;
+}
+ @media screen and (max-width: 768px){
+  .second-section .card{
+    flex-direction: column;
+      align-items: center;
+      border:none;
+  }
+  .third-section{
+    flex-direction: column-reverse;
+  }
+  .last-section .card-body{
+    align-items: center;
+  }
+  .subsol-section p{
+    font-size: 14px;
+  }
+ }
